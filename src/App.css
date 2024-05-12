@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.font_size_12 {
+  font-size: 12px;
+}
+.font_size_13 {
+  font-size: 13px;
+}
+.font_size_14 {
+  font-size: 14px;
+}
+.font_size_15 {
+  font-size: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.open_drawer_header {
+  text-align: left;
+  width: 100%;
+  justify-content: flex-start;
   display: flex;
-  flex-direction: column;
+}
+.color_primary {
+  color: rgb(55, 20, 107);
+}
+.color_secondary {
+  color: #595959;
+}
+.title_buttons {
+  font-size: 14px !important;
+  text-transform: capitalize;
+  border: none;
+  background-color: #fff;
+  color: #595959;
+  background-color: #F8F8F8;
+}
+
+.title_buttons_selected {
+  font-weight: 600;
+  color: #000;
+  background-color: #F8F8F8;
+}
+
+.title {
+  font-size: 16px;
+  color: #595959;
+  font-weight: 700 !important;
+}
+.service_info{
+  background-color: #fff;
+}
+.service_info .wrap {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 48px;
+  margin-top: 12px;
+  margin-bottom: 34px;
 }
 
-.App-link {
-  color: #61dafb;
+.service_info .deploy_btn {
+  background-color: #6e27d5;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+.status_chip {
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+  gap: 8px;
+  width: fit-content;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.status_chip .round {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress_chip {
+  border: 1px solid #f39c12;
+  color: #f39c12;
+}
+.progress_chip .round {
+  background-color: #f39c12;
+}
+
+.failed_chip {
+  border: 1px solid #e91f04;
+  color: #e91f04;
+}
+.failed_chip .round {
+  background-color: #e91f04;
+}
+.success_chip {
+  border: 1px solid #00b88c;
+  color: #00b88c;
+}
+.success_chip .round {
+  background-color: #00b88c;
+}
+
+.table_header{
+  font-weight: 600;
 }

@@ -1,0 +1,28 @@
+{
+    "tabs" :
+        [{
+            "id":1,
+            "name":"Overview",
+            "img":"images/overview.svg"
+
+        },
+        {
+            "id":2,
+            "name":"Environment Variables",
+            "img":"images/env-variables.svg"
+
+        },
+        {
+            "id":3,
+            "name":"Alert",
+            "img":"images/alert.svg"
+
+        },
+        {
+            "id":4,
+            "name":"Event History",
+            "img":"images/event-history.svg"
+
+        }]
+    
+} 

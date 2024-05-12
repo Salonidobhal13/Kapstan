@@ -1,0 +1,33 @@
+{
+    "drawer_top":[
+        {"id":"1",
+            "name":"Connections",
+            "image":"images/link.svg"
+
+        },
+        {"id":"2",
+            "name":"Cost",
+            "image":"images/cost.svg"
+
+        },
+        {"id":"3",
+            "name":"Security",
+            "image":"images/safety.svg"
+
+        }
+       
+    ],
+    "drawer_bottom":[
+        {"id":"1",
+            "name":"Admin",
+            "image":"images/admin.svg"
+
+        },
+        {"id":"2",
+            "name":"Docs",
+            "image":"images/docs.svg"
+
+        }
+       
+    ]
+}
