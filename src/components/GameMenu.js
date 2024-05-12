@@ -20,11 +20,11 @@ export default function GameMenu() {
                     setSelection(response.payload.data[0])
                 }
                 else {
-                    console.log('Event History API Error')
+                    console.log('Application API Error')
                 }
             })
             .catch((err) => {
-                console.log('Event History API Error', err)
+                console.log('Application API Error', err)
             })
     }, [])
 

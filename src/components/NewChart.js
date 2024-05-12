@@ -117,11 +117,11 @@ const SystemMetrics = () => {
               setCpuData(response.payload.data)
             }
             else {
-              console.log('Event History API Error')
+              console.log('Cpu data API Error')
             }
           })
           .catch((err) => {
-            console.log('Event History API Error', err)
+            console.log('Cpu data API Error', err)
           })
     }
     else {
@@ -131,11 +131,11 @@ const SystemMetrics = () => {
               setMemoryData(response.payload.data)
             }
             else {
-              console.log('Event History API Error')
+              console.log('Memory data API Error')
             }
           })
           .catch((err) => {
-            console.log('Event History API Error', err)
+            console.log('Memory data API Error', err)
           })
       }
     
