@@ -29,7 +29,7 @@ const SystemMetrics = () => {
         name: 'app 3',
         data: []
       }]
-
+// eslint-disable-next-line
       cpuData.map((item) => {
         if (item.applicationId === "1") {
           data[0].data.push([parseInt(item.timestamp), parseFloat(item.cpuUtilization)])
@@ -77,6 +77,7 @@ const SystemMetrics = () => {
         name: 'app 3',
         data: []
       }]
+      // eslint-disable-next-line
       memoryData.map((item) => {
         if (item.applicationId === "1") {
           data[0].data.push([parseInt(item.timestamp), parseFloat(item.memoryUtilization)])
@@ -138,7 +139,7 @@ const SystemMetrics = () => {
           })
       }
     
-  }, [tabValue])
+  }, [tabValue, dispatch])
 
   return (
     <Box sx={{ backgroundColor: '#fff', border: '1px solid #EBEBEB', boxShadow: '1px 5px 4px -1px #0000000F, 1px 3px 4px 0px #0000000F', borderRadius: '8px', padding: '24px' }}>
