@@ -26,7 +26,7 @@ export default function GameMenu() {
             .catch((err) => {
                 console.log('Application API Error', err)
             })
-    }, [])
+    }, [dispatch])
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Tab, Tabs, Typography } from '@mui/material';
 import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
 import { useDispatch } from 'react-redux';
 import { fetchCpuData, fetchMemoryData } from '../reducers/data.slice';
 

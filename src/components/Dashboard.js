@@ -5,17 +5,6 @@ import SystemMetrics from './NewChart';
 import ServiceInfo from './ServiceInfo';
 import tabs from '../assets/json/tabs.json'
 import CustomImage from './CustomImage';
-// import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
-
-// const useStyles = makeStyles((theme: Theme) =>
-//   createStyles({
-//     content: {
-//       flexGrow: 1,
-//       padding: theme.spacing(3),
-//     },
-//     toolbar: theme.mixins.toolbar,
-//   })
-// );
 
 function Dashboard() {
   
